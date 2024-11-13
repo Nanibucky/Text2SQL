@@ -19,4 +19,3 @@ Convert natural language to SQL queries using fine-tuned and optimized Mistral-7
 - Evaluation loss: 0.4643
 - CPU inference support via llama.cpp
 
-## Repository Structure
