@@ -5,7 +5,6 @@ model_path = hf_hub_download(
     repo_id="tharun66/mistral-sql-gguf",
     filename="mistral_sql_q4.gguf"
 )
-    
 llm = Llama(
     model_path=model_path,
     n_ctx=512,
