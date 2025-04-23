@@ -32,7 +32,7 @@ def generate_sql(llm, question):
     
     return clean_sql_response(response['choices'][0]['text'])
 
-# Test queries
+# Test
 test_questions = [
     "Show all active users",
     "List total sales by region"
